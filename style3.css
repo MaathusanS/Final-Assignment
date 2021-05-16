@@ -1,9 +1,13 @@
 @font-face {
   font-family: 'droid_sansregular';
-  src: url('font/droidsans-webfont.woff2') format('woff2'),
-    url('font/droidsans-webfont.woff') format('woff');
+  src: url('font/droidsans-webfont.woff2') format('woff2'), url('font/droidsans-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+img {
+  width: 25%;
+  height: 25%;
 }
 
 .navbar {
@@ -49,11 +53,6 @@
   text-align: center;
 }
 
-img {
-  width: 25%;
-  height: 25%;
-}
-
 .storage {
   float: left;
 }
@@ -64,7 +63,7 @@ img {
 }
 
 .storage form {
-  font-family: droid_sansregular;
+  font-family: 'droid_sansregular';
   font-size: 50px;
 }
 
@@ -78,11 +77,11 @@ img {
 }
 
 select {
-  min-width:565px;
+  min-width: 565px;
   min-height: 65px;
   border-width: 3px;
   border-color: rgba(0, 0, 0,);
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 10px;
 }
 
 .purchase {
@@ -91,13 +90,13 @@ select {
 
 .preprice {
   text-align: center;
-  font-family: droid_sansregular;
+  font-family: 'droid_sansregular';
   font-size: 30px;
 }
 
 #price {
   text-align: center;
-  font-family: droid_sansregular;
+  font-family: 'droid_sansregular';
   font-size: 30px;
 }
 
