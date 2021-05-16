@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url('font/droidsans-webfont.woff2') format('woff2'),
+    url('font/droidsans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  background-position: left top;
+  background-repeat: repeat;
+  height: 188px;
+}
+
+.navbar p {
+  text-align: center;
+}
+
+.navbar img {
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.navbar a {
+  color: white;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #d00000;
+}
+
+.title {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+}
+
+.image {
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+}
+
+.storage {
+  float: left;
+}
+
+.storage h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+.storage form {
+  font-family: droid_sansregular;
+  font-size: 50px;
+}
+
+.shipping {
+  float: right;
+}
+
+.shipping h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+select {
+  min-width:565px;
+  min-height: 65px;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0,);
+  margin: 10px 10px 10px 0px;
+}
+
+.purchase {
+  padding-top: 110px;
+}
+
+.preprice {
+  text-align: center;
+  font-family: droid_sansregular;
+  font-size: 30px;
+}
+
+#price {
+  text-align: center;
+  font-family: droid_sansregular;
+  font-size: 30px;
+}
+
+.link {
+  text-align: center;
+  padding: 20px;
+}
+
+.purchase button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #d9d9d9;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.purchase button:hover {
+  background-color: #003049;
+  color: white;
+}

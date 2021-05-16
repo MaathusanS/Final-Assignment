@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url('font/droidsans-webfont.woff2') format('woff2'),
+    url('font/droidsans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  background-position: left top;
+  background-repeat: repeat;
+  height: 188px;
+}
+
+.navbar p {
+  text-align: center;
+}
+
+.navbar img {
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.navbar a {
+  color: white;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #d00000;
+}
+
+#active {
+  background-color: #003049
+}
+
+.bio {
+  background-color: #d9d9d9;
+  overflow: auto;
+
+}
+
+.bio h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+}
+
+.bio img {
+  width: 25%;
+  height: 25%;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  float: left;
+}
+
+.bio p {
+  font-family: droid_sansregular;
+  font-size: 45px;
+}

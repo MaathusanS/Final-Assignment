@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+ <head>
+  <meta charset="utf-8">
+  <meta name="description" content="Official webpage for Soulja Boy's SouljaGame Console.">
+  <meta name="keywords" content="Soulja Boy, SouljaGame, SouljaGame Console">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Maathusan Sathiendran">
+  <title>SouljaGame Purchase</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="style3.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+  <div class="navbar">
+   <p><img src="Images/SOULJA.png" alt="SouljaGame logo"></p>
+   <hr>
+   <a href="index.html">Home</a>
+   <a href="about.html">About</a>
+  </div>
+  <h1 class="title">Make your console</h1>
+  <p class="image"><img src="Images/tellemconsole.png" alt="SouljaGame Console"></p>
+  <br>
+  <span class="storage">
+   <h3>Choose your storage space</h3>
+   <form id="form1">
+    <select name="capacity" id="size">
+     <option value=0>64GB (+$0)</option>
+     <option value=55>512GB (+$55)</option>
+    </select>
+   </form>
+  </span>
+  <span class="shipping">
+   <h3>Choose your shipping option</h3>
+   <form id="form2">
+    <select name="shipp" id="ship">
+     <option value=0>Free 7-14 Day Shipping (+$0)</option>
+     <option value=20>2 Day Shipping (+$20)</option>
+    </select>
+   </form>
+  </span>
+  <br>
+  <div class="purchase">
+   <p class="preprice"><b>Your total is:</b><p id="price">$299</p>
+   <p class="link"><button id="click">Checkout</button></p>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>

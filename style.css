@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url('font/droidsans-webfont.woff2') format('woff2'),
+    url('font/droidsans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  background-position: left top;
+  background-repeat: repeat;
+  height: 188px;
+}
+
+.navbar p {
+  text-align: center;
+}
+
+.navbar img {
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.navbar a {
+  color: white;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #d00000;
+}
+
+#active {
+  background-color: #003049
+}
+
+.image1 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px
+}
+
+.subtitle {
+  text-align: center;
+  font-family: droid_sansregular;
+  font-size: 25px;
+}
+
+.price {
+  text-align: center;
+  font-family: droid_sansregular;
+}
+
+.portable {
+  color: white;
+  background-color: #b7094c;
+}
+
+.portable h3 {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.portable p {
+  text-align: center;
+  font-family: droid_sansregular;
+  padding: 20px;
+}
+
+.portable img {
+  width: 10%;
+  height: 10%;
+}
+
+.emulation {
+  color: white;
+  background-color: #0077b6;
+}
+
+.emulation h3 {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.emulation p {
+  text-align: center;
+  font-family: droid_sansregular;
+  padding: 20px;
+}
+
+.emulation img {
+  width: 10%;
+  height: 10%;
+}
+
+.performance {
+  color: white;
+  background-color: #ef8354;
+}
+
+.performance h3 {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.performance p {
+  text-align: center;
+  font-family: droid_sansregular;
+  padding: 20px;
+}
+
+.performance img {
+  width: 10%;
+  height: 10%;
+}
+
+.games {
+  color: white;
+  background-color: #84a98c;
+}
+
+.games h3 {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.games p {
+  text-align: center;
+  font-family: droid_sansregular;
+  padding: 20px;
+}
+
+.games img {
+  width: 10%;
+  height: 10%;
+}
+
+.link {
+  text-align: center;
+}
+
+.purchase a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #d9d9d9;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.purchase a:hover {
+  background-color: #003049;
+  color: white;
+}
+
+.conv1 {
+  font-size: 30px;
+  font-family: droid_sansregular;
+  float: left;
+}
+
+.conv1lst {
+  font-size: 30px;
+  float: left;
+  font-family: droid_sansregular;
+  padding-top: 100px;
+}
+
+.conv2 {
+  font-size: 30px;
+  font-family: droid_sansregular;
+  display: inline;
+  float: right;
+}
+
+.conv2lst {
+  font-size: 30px;
+  float: right;
+  font-family: droid_sansregular;
+  padding-top: 100px;
+}
