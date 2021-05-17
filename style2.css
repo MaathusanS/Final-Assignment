@@ -105,6 +105,7 @@ body {
   padding: 10px;
   text-decoration: none;
   border-radius: 50px;
+  margin: 2px 8px;
 }
 
 .fa:hover {
