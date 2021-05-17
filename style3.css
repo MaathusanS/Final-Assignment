@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'droid_sansregular';
-  src: url('font/droidsans-webfont.woff2') format('woff2'), url('font/droidsans-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 img {
   width: 25%;
   height: 25%;
@@ -63,7 +56,7 @@ img {
 }
 
 .storage form {
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
 }
 
@@ -90,13 +83,13 @@ select {
 
 .preprice {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
 }
 
 #price {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
 }
 

@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'droid_sansregular';
-  src: url('font/droidsans-webfont.woff2') format('woff2'), url('font/droidsans-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -65,13 +58,13 @@
 
 .subtitle {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
 }
 
 .price {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
 }
 
 .portable {
@@ -87,7 +80,7 @@
 
 .portable p {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
@@ -109,7 +102,7 @@
 
 .emulation p {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
@@ -131,7 +124,7 @@
 
 .performance p {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
@@ -153,7 +146,7 @@
 
 .games p {
   text-align: center;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding: 20px;
 }
 
@@ -173,7 +166,7 @@
 
 .conv1 {
   font-size: 30px;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   float: left;
 }
 
@@ -181,13 +174,13 @@
   font-size: 30px;
   max-width: 350.219px;
   float: left;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding-top: 100px;
 }
 
 .conv2 {
   font-size: 30px;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   display: inline;
   float: right;
 }
@@ -196,6 +189,6 @@
   font-size: 30px;
   max-width: 200.219px;
   float: right;
-  font-family: 'droid_sansregular';
+  font-family: 'Roboto', sans-serif;
   padding-top: 100px;
 }
