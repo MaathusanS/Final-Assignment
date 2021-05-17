@@ -24,6 +24,22 @@
   max-height: 5%;
 }
 
+.purchase a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #d9d9d9;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.purchase a:hover {
+  background-color: #003049;
+  color: white;
+}
+
 .navbar a {
   color: white;
   padding: 20px;
@@ -155,22 +171,6 @@
   text-align: center;
 }
 
-.purchase a {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-  background-color: #d9d9d9;
-  border-style: solid;
-  border-width: 3px;
-}
-
-.purchase a:hover {
-  background-color: #003049;
-  color: white;
-}
-
 .conv1 {
   font-size: 30px;
   font-family: 'droid_sansregular';
@@ -179,6 +179,7 @@
 
 .conv1lst {
   font-size: 30px;
+  max-width: 350.219px;
   float: left;
   font-family: 'droid_sansregular';
   padding-top: 100px;
@@ -193,6 +194,7 @@
 
 .conv2lst {
   font-size: 30px;
+  max-width: 200.219px;
   float: right;
   font-family: 'droid_sansregular';
   padding-top: 100px;
